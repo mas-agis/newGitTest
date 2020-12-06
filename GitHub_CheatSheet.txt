@@ -1,0 +1,18 @@
+GitHub_CheatSheet
+#Basic:
+git clone #copy repository to local computer
+git status #show whats difference between us (local computer) and repository in web
+git add <file> #add <file>
+git commit -m "message" #locking the <file> added to local repository with a "message"
+git push #taking all changes in the local machine, to the repository in web
+git pull #taking all updates in the repository web, only work in the directory-repository in local machine
+git add -A #add all changes/files in the local repository
+#when accidentally do 'git commit' without message, it is asking message. Hit escape+:wq ;to exit
+
+#Pull request, branching, merging, & team workflow
+git branch feature1 #setting the current local directory as branch 'feature1' of the repository (complete copy of the main branch)
+git checkout feature1 #switch to branch 'feature1'
+git checkout main #switch to main branch
+git checkout feature1 #switch to branch 'feature1'
+git merge master #merge updates in master to the 'feature1' branch if currently working in the 'feature1' branch
+
