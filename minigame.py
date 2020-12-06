@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
 import pandas as pd
-
+import matplotlib.pyplot as plt
 df = pd.DataFrame({
 
     'sales': [3, 2, 3, 9, 10, 6],
